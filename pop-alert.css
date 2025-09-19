@@ -1,0 +1,31 @@
+media only screen and (max-width: 5000px) {
+    .alert-width {
+        max-width: 40%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .alert-width {
+        max-width: 60%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .alert-width {
+        max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .alert-width {
+        max-width: 100%;
+    }
+}
+
+.alert-positioning {
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
